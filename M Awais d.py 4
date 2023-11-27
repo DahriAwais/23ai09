@@ -1,0 +1,13 @@
+username = "admin"
+password = '12345'
+
+input_username = input("Enter username: ")
+input_password = input("Enter your password: ")
+
+if username == input_username:
+      if password == input_password:
+        print("login successful")
+      else:
+          print("login failed")
+
+

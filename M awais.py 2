@@ -1,0 +1,1 @@
+print("Leap year" if int(input("Enter a number table of four:"))%2==0 else "not Leap year")

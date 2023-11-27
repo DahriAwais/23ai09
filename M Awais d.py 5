@@ -1,0 +1,11 @@
+def check_number(number):
+    if number>0:
+        print("The number is positive.")
+    
+    elif number<0:
+        print("The number is negative.")
+    else:
+        print("The number is zero")
+    # Example check a given number
+user_number=int(input("Enter a number:"))# Taking user input
+check_number(user_number) 
